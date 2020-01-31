@@ -1,13 +1,13 @@
-# Assessment: JavaScript Katas 1 #
+# Avaliação: Katas de JavaScript 1#
 
-### Overview ###
+### Visão Geral ###
 
-A [kata](https://en.wikipedia.org/wiki/Kata_(programming)) is an individual exercise where you practice a programming skill through repetition. Today you will practice using JavaScript loops, conditionals, and expressions through a series of katas.
+Um [kata](https://en.wikipedia.org/wiki/Kata_(programming)) é um exercício individual onde você pratica uma habilidade de programação repetidamente. Hoje você irá praticar o uso de loops, condicionais, e expressões JavaScript através de uma série de katas.
 
-To start, go [here](https://gitlab.com/kenzie-academy/se/fe/getting-started-with-javascript/s_js-katas-1) and [fork](https://docs.gitlab.com/ee/gitlab-basics/fork-project.html) and clone the repo.
-Fill in the missing code inside the katas1.js file for each function. Use a `for` or `while` loop inside each function. Use console.log() to display your result in the console.  Each correctly completed kata is worth 1 point.
+Para começar, acesse [este link](https://gitlab.com/kenzie-academy-brasil/se/fe/getting-started-with-javascript/s_js-katas-1), faça o [fork] e clone o repo. 
+Preencha o código que está faltando em cada função dentro do arquivo `katas1.js`. Use um loop `for` ou `while` dentro de cada função. Use `console.log()` para exibir seu resultado no console. Cada kata completado corretamente vale 1 ponto.
 
-### Example ###
+### Exemplo ###
 
 ```js
 function oneThroughFive() {
@@ -19,11 +19,7 @@ function oneThroughFive() {
 }
 ```
 
-To test your functions, you will need to call them. Following the above example, 
-we would write `oneThroughFive()` to call the function oneThroughFive. To see 
-what this function returns in the console, we can write `console.log(oneThroughFive())`.
-So for the example above, the final function and subsequent function call would look
-like this:
+Para testar as funções, você precisa chamá-las. Seguindo o exemplo acima, escreveríamos `oneThroughFive()` para chamar a função `oneThroughFive`. Para ver o que esta função retorna no console, podemos escrever `console.log(oneThroughFive())`. Então, no exemplo acima, a função final e a chamada da função subsequente seria algo assim:
 
 ```js
 function oneThroughFive() {
@@ -40,17 +36,15 @@ oneThroughFive()
 
 ### Katas
 
-1.  Return the numbers from 1 to 20. (1, 2, 3,..., 19, 20)
-2.  Return the even numbers from 1 to 20. (2, 4, 6,...18,20)
-3.  Return the odd numbers from 1 to 20. (1, 3, 5,...,17,19)
-4.  Return the multiples of 5 up to 100. (5, 10, 15, ..., 95, 100)
-5.  Return all numbers up to 100 that are perfect squares. (1, 4, 9, ..., 81, 100)
-6.  Return the numbers counting backwards from 20 to 1. (20, 19, 18, ..., 2, 1)
-7.  Return the even numbers counting backwards from 20. (20, 18, 16, ..., 4, 2)
-8.  Return the odd numbers from 20 to 1, counting backwards. (19, 17, 15, ..., 3, 1)
-9.  Return the multiples of 5, counting down from 100. (100, 95, 90, ..., 10, 5)
-10. Return the numbers that are perfect squares, counting down from 100. (100, 81, 64, ..., 4, 1)
+1.  Retornar os números de 1 a 20. (1, 2, 3,…, 19, 20)
+2.  Retornar os números pares de 1 a 20. (2, 4, 6,…, 18, 20)
+3.  Retornar os números ímpares de 1 a 20. (1, 3, 5,…, 17, 19)
+4.  Retornar os múltiplos de 5 até 100. (5, 10, 15,…, 95, 100)
+5.  Retornar todos os números até 100 que forem quadrados perfeitos. (1, 4, 9, …, 81, 100)
+6.  Retornar os números contando de trás para frente de 20 até 1. (20, 19, 18, …, 2, 1)
+7.  Retornar os números pares de 20 até 1. (20, 18, 16, …, 4, 2)
+8.  Retornar os números ímpares de 20 até 1. (19, 17, 15, …, 3, 1)
+9.  Retornar os múltiplos de 5 contando de trás para frente a partir de 100. (100, 95, 90, …, 10, 5)
+10. Retornar os quadrados perfeitos contando de trás para frente a partir de 100. (100, 81, 64, …, 4, 1)
 
-Push your code into your GitLab repository and deploy it via GitLab pages. In Canvas, **please submit your Gitlab 
-Pages url (ex: https://username.gitlab.io/js-katas-01/)** and in GitLab add KA_grading
-as a member on your project with "Reporter" permission.
+Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, **por favor, envie sua url do Gitlab Pages (ex: https://nomedeusuário.gitlab.io/js-katas-01/)** e no GitLab, adicione KA_grading como membro do seu projeto com a permissão "Reporter".
