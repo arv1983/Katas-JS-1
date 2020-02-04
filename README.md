@@ -47,4 +47,4 @@ oneThroughFive()
 9.  Retornar os múltiplos de 5 contando de trás para frente a partir de 100. (100, 95, 90, …, 10, 5)
 10. Retornar os quadrados perfeitos contando de trás para frente a partir de 100. (100, 81, 64, …, 4, 1)
 
-Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, **por favor, envie sua url do Gitlab Pages (ex: https://nomedeusuário.gitlab.io/js-katas-01/)** e no GitLab, adicione KA_grading como membro do seu projeto com a permissão "Reporter".
+Faça o push do código para o seu repositório GitLab e implemente-o via GitLab pages. No Canvas, **por favor, envie sua url do Gitlab Pages (ex: https://nomedeusuário.gitlab.io/js-katas-01/)** e no GitLab, adicione o grupo `ka-br-correcoes` como membro do seu projeto com a permissão "Reporter".
