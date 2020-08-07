@@ -4,7 +4,7 @@
 
 Um [kata](https://en.wikipedia.org/wiki/Kata_(programming)) é um exercício individual onde você pratica uma habilidade de programação repetidamente. Hoje você irá praticar o uso de loops, condicionais, e expressões JavaScript através de uma série de katas.
 
-Para começar, acesse [este link](https://gitlab.com/kenzie-academy-brasil/se/fe/getting-started-with-javascript/s_js-katas-1), faça o [fork] e clone o repo. 
+Para começar, acesse [este link](https://gitlab.com/kenzie-academy-brasil/se/fe/getting-started-with-javascript/s_js-katas-1), faça o fork e clone o repo. 
 Preencha o código que está faltando em cada função dentro do arquivo `katas1.js`. Use um loop `for` ou `while` dentro de cada função. Use `console.log()` para exibir seu resultado no console. Cada kata completado corretamente vale 1 ponto.
 
 ## Exemplo
