@@ -1,94 +1,139 @@
 function oneThroughTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   console.log() the result*/
-    
+    let resultado1a20 = '';
+    for (let i = 1; i <= 20; i++) {
+        resultado1a20 = resultado1a20 + i + ', ';
+
+    }
+    console.log(resultado1a20);
 }
+
 
 //call function oneThroughTwenty
 
 function evensToTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   console.log() the result */
-  
+
+    let resultadoPar20 = '';
+    for (let i = 1; i <= 20; i++) {
+        if (i % 2 == 0) {
+            resultadoPar20 = resultadoPar20 + i + ', ';
+        }
+    }
+    console.log(resultadoPar20);
+
 }
 
 //call function evensToTwenty
 
 function oddsToTwenty() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  console.log() the result */
-   
+
+
+    let resultadoImpar20 = '';
+    for (let i = 1; i <= 20; i++) {
+        if (i % 2 != 0) {
+            resultadoImpar20 = resultadoImpar20 + i + ', ';
+        }
+    }
+    console.log(resultadoImpar20);
 }
 
 //call function oddsToTwenty
 
 function multiplesOfFive() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  console.log() the result */
 
+    let multiplo5 = '';
+    for (let i = 1; i <= 100; i++) {
+        if (i % 5 == 0) {
+            multiplo5 = multiplo5 + i + ', ';
+        }
+    }
+    console.log(multiplo5);
 }
 
 //call function multiplesOfFive
 
 function squareNumbers() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  console.log() the result */
-    
+
+    let quadrado = '';
+    let quadradoPerfeito = '';
+    for (let i = 1; i <= 100; i++) {
+        quadrado = i * i;
+        quadradoPerfeito = quadradoPerfeito + quadrado + ', ';
+        if (quadrado >= 100) {
+            break;
+        }
+    }
+
+    console.log(quadradoPerfeito);
+
 }
 
 //call function squareNumbers
 
 function countingBackwards() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  console.log() the result */
+
+    let resultado20a1 = '';
+    for (let i = 20; i >= 1; i--) {
+        resultado20a1 = resultado20a1 + i + ', ';
+    }
+    console.log(resultado20a1);
 }
 
-//call function countingBackwards
+//call function do 20 até 0 somente par
 
 function evenNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  console.log() the result */
+
+
+    let resultado20a1par = '';
+    for (let i = 20; i >= 1; i--) {
+        if (i % 2 == 0) {
+            resultado20a1par = resultado20a1par + i + ', ';
+        }
+    }
+    console.log(resultado20a1par);
+
 }
 
 //call function evenNumbersBackwards
 
 function oddNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  console.log() the result */
+    let resultado20a1par = '';
+    for (let i = 20; i >= 1; i--) {
+        if (i % 2 != 0) {
+            resultado20a1par = resultado20a1par + i + ', ';
+        }
+    }
+    console.log(resultado20a1par);
 }
 
 //call function oddNumbersBackwards
 
 function multiplesOfFiveBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  console.log() the result */
+
+    let resultado20a1par = '';
+    for (let i = 100; i >= 1; i--) {
+        if (i % 5 == 0) {
+            resultado20a1par = resultado20a1par + i + ', ';
+        }
+    }
+    console.log(resultado20a1par);
 }
 
 //call function multiplesOfFiveBackwards
 
 function squareNumbersBackwards() {
-    
-   /* Your code goes below
-  Write a for or a while loop
-  console.log() the result */
+    let quadrado = '';
+    let quadradoPerfeito = '';
+    for (let i = 100; i >= 1; i--) {
+        quadrado = i * i;
+        if (quadrado <= 100) {
+            quadradoPerfeito = quadradoPerfeito + quadrado + ', ';
+        }
+        // if (quadrado >= 0) {
+        //   break;
+        //}
+    }
+
+    console.log(quadradoPerfeito);
 }
 
 //call function squareNumbersBackwards
