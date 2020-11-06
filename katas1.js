@@ -1,3 +1,5 @@
+oneThroughTwenty();
+
 function oneThroughTwenty() {
     let resultado1a20 = '';
     for (let i = 1; i <= 20; i++) {
@@ -9,6 +11,7 @@ function oneThroughTwenty() {
 
 
 //call function oneThroughTwenty
+evensToTwenty();
 
 function evensToTwenty() {
 
@@ -24,6 +27,8 @@ function evensToTwenty() {
 
 //call function evensToTwenty
 
+oddsToTwenty();
+
 function oddsToTwenty() {
 
 
@@ -37,6 +42,7 @@ function oddsToTwenty() {
 }
 
 //call function oddsToTwenty
+multiplesOfFive();
 
 function multiplesOfFive() {
 
@@ -50,6 +56,7 @@ function multiplesOfFive() {
 }
 
 //call function multiplesOfFive
+squareNumbers();
 
 function squareNumbers() {
 
@@ -68,6 +75,7 @@ function squareNumbers() {
 }
 
 //call function squareNumbers
+countingBackwards();
 
 function countingBackwards() {
 
@@ -79,6 +87,7 @@ function countingBackwards() {
 }
 
 //call function do 20 até 0 somente par
+evenNumbersBackwards();
 
 function evenNumbersBackwards() {
 
@@ -94,6 +103,7 @@ function evenNumbersBackwards() {
 }
 
 //call function evenNumbersBackwards
+oddNumbersBackwards();
 
 function oddNumbersBackwards() {
     let resultado20a1par = '';
@@ -106,6 +116,7 @@ function oddNumbersBackwards() {
 }
 
 //call function oddNumbersBackwards
+multiplesOfFiveBackwards();
 
 function multiplesOfFiveBackwards() {
 
@@ -119,6 +130,7 @@ function multiplesOfFiveBackwards() {
 }
 
 //call function multiplesOfFiveBackwards
+squareNumbersBackwards();
 
 function squareNumbersBackwards() {
     let quadrado = '';
